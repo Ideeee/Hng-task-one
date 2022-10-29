@@ -8,7 +8,7 @@ app.get("/", async (req,res)=>{
     res.json({
         'slackUsername' : 'Idee',
         "backend" : true,
-        'age' : 81,
+        'age' : 81, // use your actual age!
         'bio': "Hi, It's nice to meet you"
     })
 })
